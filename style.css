@@ -1,0 +1,46 @@
+body {
+    background-color: #202020;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+
+header {
+    text-align: center;
+}
+
+#levelSpan,
+#pauseButton {
+    float: left;
+}
+
+#deathCountSpan,
+#restartButton {
+    float: right;
+}
+
+select option {
+    color: #eee;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    margin: 2px 0px;
+    font-size: inherit;
+    font-family: inherit;
+    color: #eee;
+    background-color: #505050;
+    outline: none;
+    padding: 2px;
+}
+
+#canvas {
+    margin: 10px 0px;
+}
